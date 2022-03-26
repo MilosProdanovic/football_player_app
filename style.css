@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+	padding:0;
+}
+
+.main-wrapper {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+
+}
+
+/*HEADER*/
+
+header {
+background-color: #fff;
+box-shadow: 0 0 5px 0 #ff75b1;
+padding: 10px 100px;
+}
+
+header .logo {
+	display: block;
+}
+
+header .logo img {
+	width: 150px;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-family: Helvetica;
+	padding: 0 100px;
+	margin-top: 0;
+	color: #eee;
+}
+
+main {
+	background-color: #000;
+	padding-top: 30px;
+	border-top: 10px solid #f9837c;
+	border-bottom: 10px solid #f9837c;
+}
+
+
+section{
+	font-family: Helvetica;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+section.first-squad {
+    color: #000;
+    padding: 5px 50px;
+ }
+
+.player {
+    padding: 10px 0;
+}
+
+
+section .player{
+	margin-bottom: 30px;
+	background-color: white;
+	width: 22%;
+	margin-right: 4%;
+
+}
+
+section .player:nth-child(4n){
+	margin-right: 0;
+}
+
+section .player > div {
+	padding: 5px 15px;
+}
+
+section.substitutions {
+    border-top: solid 10px #f9837c;
+    padding: 35px 50px;
+    background-color: #fff;
+}
+
+img {
+    width: 259px;
+}
+
+.first-squad .player:last-child{
+	margin-right: 0%;
+}
